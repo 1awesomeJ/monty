@@ -47,12 +47,13 @@ void push_stack(stack_t **stack, unsigned int line_number)
 */
 void print_stack(stack_t **stack, unsigned int line_number)
 {
+	stack_t *ptr = NULL;
+
 	if (val == -1)
 	{
 	dprintf(2, "L%d: usage: push integer\n", line_number);
 	exit(EXIT_FAILURE);
 	}
-	stack_t *ptr = NULL;
 	ptr = *stack;
 	while(ptr != NULL)
 	{
