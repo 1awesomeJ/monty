@@ -1,2 +1,4 @@
-# monty
-we're building a monty bytecode interpreter
+We're building our own monty bytecode interpreter.
+
+
+## MONTY PROJECT
