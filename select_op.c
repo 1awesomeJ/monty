@@ -11,6 +11,7 @@ void (*get_stack_call(char *token))( stack_t **stack, unsigned int line_number)
 		{"nop",  no_op},
 		{"add", add_nodes},
 		{"sub", sub_nodes},
+		{"div", div_nodes},
 		{"swap", swap_nodes},
 		{NULL, NULL}
 	};
@@ -25,3 +26,4 @@ void (*get_stack_call(char *token))( stack_t **stack, unsigned int line_number)
 
 	return (0);
 }
+
