@@ -8,7 +8,7 @@ void (*get_stack_call(char *token))( stack_t **stack, unsigned int line_number)
 		{"pall", print_stack},
 		{"pop", pop_stack},
 		{"pint", print_stack_head},
-		{"nop", 
+		{"nop",  no_op},
 		{NULL, NULL}
 	};
 
